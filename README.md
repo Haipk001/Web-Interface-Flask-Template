@@ -57,7 +57,5 @@ Basic web app with HTML template and Flask, it has:
     ```
     then just log in with the default account. 
 
-### Screenshots
-
 
 **I hope you enjoy it.**
