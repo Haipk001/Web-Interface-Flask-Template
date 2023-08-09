@@ -28,7 +28,7 @@ Basic web app with HTML template and Flask, it has:
 
 - Clone or download the git repository.
     ```sh
-    $ git clone https://github.com/Haipk001/GT-Web-Interface-Flask
+    $ git clone https://github.com/Haipk001/Web-Interface-Flask-Template.git
     ```
     
 - Create and Activate a virtual environment:
