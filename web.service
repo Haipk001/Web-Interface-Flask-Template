@@ -1,0 +1,12 @@
+[Unit]
+Description=Web Interface Program
+After=network.target
+
+[Service]
+Type=idle
+Restart=on-failure
+User=haikp
+ExecStart=/bin/bash -c 'cd /home/haikp/Desktop/Raspberry-Pi-IoT/Web-Inteface-Flask/ && . env/bin/activate  && python app.py
+
+[Install]
+WantedBy=multi-user.target

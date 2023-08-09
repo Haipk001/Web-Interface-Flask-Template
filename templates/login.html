@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" user-scalable="no">
+    <link rel="stylesheet" href="static/css/main.css">
+    <title>Log in</title>
+  </head>
+  <body>
+    <div class="container-login">
+      <div class="col-md-6 offset-md-3">
+        <div align="center" class="imgcontainer">
+          <img src="static/Images/man.png" alt="Avartar" class="avartar" width="150" height="150">
+        </div>
+        <br>
+        
+        <form action="{{ url_for('validate') }}" method="POST" id="main-form">
+          <h2 class="alert"> {{ alert }} </h2>
+            <h2></h2>
+          <div class="input-parent">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username" name="username" value="" required>
+          </div>
+          <div class="input-parent">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" name="password" value="" required>
+          </div>
+          <button type="submit" class="btn-login">Log in</button>
+          <br>
+          <br>
+          <center>
+            <div>
+              <a href="/instruction">How to login?</a>
+            </div>
+          </center>
+        </form>
+      </div>
+    </div>
+  
+  </body>
+</html>
